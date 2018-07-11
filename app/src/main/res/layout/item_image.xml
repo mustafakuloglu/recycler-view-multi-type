@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="viewModel"
+            type="com.generalmobile.app.recyclermultiitems.ui.main.MainActivityImageViewModel"/>
+    </data>
+    <RelativeLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="8dp"
+            app:set_src="@{viewModel.src}"/>
+
+    </RelativeLayout>
+</layout>
