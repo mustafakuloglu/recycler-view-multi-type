@@ -8,9 +8,6 @@ import com.generalmobile.app.recyclermultiitems.db.entities.Image
 
 class MainActivityImageViewModel(app: Application) : AndroidViewModel(app) {
     val src: ObservableField<String> = ObservableField("")
-    fun setItem(item: Image) {
+    fun setItem(item: Image) = src.set(item .url)
 
-        src.set(item .url)
-
-    }
 }

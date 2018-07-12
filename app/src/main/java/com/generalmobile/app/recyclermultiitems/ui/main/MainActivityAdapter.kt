@@ -28,38 +28,33 @@ class MainActivityAdapter : ListAdapter<BaseRecyclerEntity, RecyclerView.ViewHol
 }) {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder = ViewHolder(createBinding(parent, viewType))
 
+    override fun getItemViewType(position: Int) = getItem(position).type
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
-        when(getItem(position).type){
-            Type.HEADER ->  ((holder as ViewHolder).binding as ItemHeaderBinding).viewModel?.setItem(getItem(position) as Header)
+        when (getItem(position).type) {
+            Type.HEADER -> ((holder as ViewHolder).binding as ItemHeaderBinding).viewModel?.setItem(getItem(position) as Header)
             Type.IMAGE -> ((holder as ViewHolder).binding as ItemImageBinding).viewModel?.setItem(getItem(position) as Image)
         }
-
+        
     }
 
-    override fun getItemViewType(position: Int): Int {
-        return getItem(position).type
-    }
-
-    private fun createBinding(parent: ViewGroup, viewType: Int): ViewDataBinding {
-        when(viewType)
-        {
+    private fun createBinding(parent: ViewGroup, viewType: Int) =
+            when (viewType) {
             Type.HEADER -> {
                 val viewModel = MainActivityHeaderViewModel(parent.context.applicationContext as App)
                 val binding = DataBindingUtil.inflate<ItemHeaderBinding>(LayoutInflater.from(parent.context), R.layout.item_header, parent, false)
                 binding.viewModel = viewModel
-                return binding
+                binding
             }
-            else ->
-            {
+            else -> {
                 val viewModel = MainActivityImageViewModel(parent.context.applicationContext as App)
                 val binding = DataBindingUtil.inflate<ItemImageBinding>(LayoutInflater.from(parent.context), R.layout.item_image, parent, false)
                 binding.viewModel = viewModel
-                return binding
+                binding
             }
         }
 
-    }
+
 
     class ViewHolder(val binding: ViewDataBinding) : RecyclerView.ViewHolder(binding.root)
 

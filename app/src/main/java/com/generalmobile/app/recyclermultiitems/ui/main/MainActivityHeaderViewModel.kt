@@ -8,9 +8,5 @@ import com.generalmobile.app.recyclermultiitems.db.entities.Header
 
 class MainActivityHeaderViewModel(app: Application) : AndroidViewModel(app) {
     val header: ObservableField<String> = ObservableField("")
-    fun setItem(item: Header) {
-
-        header.set(item.header)
-
+    fun setItem(item: Header) = header.set(item.header)
     }
-}
