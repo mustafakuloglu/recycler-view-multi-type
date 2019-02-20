@@ -1,8 +1,8 @@
-package com.generalmobile.app.recyclermultiitems.core
+package com.kuloglu.app.recyclermultiitems.core
 
-import com.generalmobile.app.recyclermultiitems.db.entities.BaseRecyclerEntity
-import com.generalmobile.app.recyclermultiitems.db.entities.Header
-import com.generalmobile.app.recyclermultiitems.db.entities.Image
+import com.kuloglu.app.recyclermultiitems.db.entities.BaseRecyclerEntity
+import com.kuloglu.app.recyclermultiitems.db.entities.Header
+import com.kuloglu.app.recyclermultiitems.db.entities.Image
 
 class ListProvider{
     fun getList(): ArrayList<BaseRecyclerEntity> {

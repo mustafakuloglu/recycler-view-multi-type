@@ -1,12 +1,10 @@
-package com.generalmobile.app.recyclermultiitems
+package com.kuloglu.app.recyclermultiitems
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
-
+import org.junit.Assert.assertEquals
 import org.junit.Test
 import org.junit.runner.RunWith
-
-import org.junit.Assert.*
 
 /**
  * Instrumented test, which will execute on an Android device.
@@ -21,6 +19,6 @@ class ExampleInstrumentedTest {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
 
-        assertEquals("com.generalmobile.app.recyclermultiitems", appContext.packageName)
+        assertEquals("com.kuloglu.app.recyclermultiitems", appContext.packageName)
     }
 }

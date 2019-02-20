@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.generalmobile.app.recyclermultiitems">
+    package="com.kuloglu.app.recyclermultiitems">
 
     <application
         android:name=".App"
@@ -23,10 +23,6 @@
         </activity>
         
 
-        <!--TODO:put your fabric api key here-->
-        <meta-data
-            android:name="io.fabric.ApiKey"
-            android:value=""  />
 
     </application>
 

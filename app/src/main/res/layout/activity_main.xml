@@ -8,7 +8,7 @@
 
         <variable
             name="viewModel"
-            type="com.generalmobile.app.recyclermultiitems.ui.main.MainActivityViewModel" />
+            type="com.kuloglu.app.recyclermultiitems.ui.main.MainActivityViewModel" />
     </data>
 
 

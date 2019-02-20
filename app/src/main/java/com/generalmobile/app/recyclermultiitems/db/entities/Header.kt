@@ -1,4 +1,4 @@
-package com.generalmobile.app.recyclermultiitems.db.entities
+package com.kuloglu.app.recyclermultiitems.db.entities
 
 data class Header(
         override var id: Int,

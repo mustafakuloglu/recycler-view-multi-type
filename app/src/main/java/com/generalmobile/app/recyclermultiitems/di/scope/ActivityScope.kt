@@ -1,7 +1,6 @@
-package com.generalmobile.app.recyclermultiitems.di.scope
+package com.kuloglu.app.recyclermultiitems.di.scope
 
 import javax.inject.Scope
-import kotlin.annotation.Retention;
 
 
 @Scope

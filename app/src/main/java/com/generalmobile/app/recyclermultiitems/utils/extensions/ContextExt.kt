@@ -1,4 +1,4 @@
-package com.generalmobile.app.recyclermultiitems.utils.extensions
+package com.kuloglu.app.recyclermultiitems.utils.extensions
 
 import android.content.Context
 import android.support.annotation.ColorRes

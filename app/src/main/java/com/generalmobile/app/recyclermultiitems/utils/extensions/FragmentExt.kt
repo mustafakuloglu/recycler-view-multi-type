@@ -1,4 +1,4 @@
-package com.generalmobile.app.recyclermultiitems.utils.extensions
+package com.kuloglu.app.recyclermultiitems.utils.extensions
 
 import android.support.v4.app.Fragment
 import android.support.v7.app.AlertDialog

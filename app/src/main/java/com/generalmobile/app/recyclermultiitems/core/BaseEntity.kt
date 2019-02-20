@@ -1,3 +1,3 @@
-package com.generalmobile.app.recyclermultiitems.core
+package com.kuloglu.app.recyclermultiitems.core
 
 open class BaseEntity

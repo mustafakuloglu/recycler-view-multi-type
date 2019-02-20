@@ -1,9 +1,9 @@
-package com.generalmobile.app.recyclermultiitems.db.dao
+package com.kuloglu.app.recyclermultiitems.db.dao
 
 import android.arch.lifecycle.LiveData
 import android.arch.persistence.room.*
 import android.arch.persistence.room.OnConflictStrategy.REPLACE
-import com.generalmobile.app.recyclermultiitems.db.entities.Example
+import com.kuloglu.app.recyclermultiitems.db.entities.Example
 
 @Dao
 interface ExampleDao {

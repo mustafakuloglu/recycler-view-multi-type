@@ -1,4 +1,4 @@
-package com.generalmobile.app.recyclermultiitems.core
+package com.kuloglu.app.recyclermultiitems.core
 
 import android.support.v7.util.DiffUtil
 

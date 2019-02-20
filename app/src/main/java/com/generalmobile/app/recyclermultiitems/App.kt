@@ -1,7 +1,7 @@
-package com.generalmobile.app.recyclermultiitems
+package com.kuloglu.app.recyclermultiitems
 
-import com.generalmobile.app.recyclermultiitems.di.component.DaggerApplicationComponent
-import com.generalmobile.app.recyclermultiitems.di.module.ApplicationModule
+import com.kuloglu.app.recyclermultiitems.di.component.DaggerApplicationComponent
+import com.kuloglu.app.recyclermultiitems.di.module.ApplicationModule
 
 class App : android.app.Application() {
 

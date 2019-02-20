@@ -1,13 +1,9 @@
-package com.generalmobile.app.recyclermultiitems.utils.extensions
+package com.kuloglu.app.recyclermultiitems.utils.extensions
 
-import android.content.res.ColorStateList
 import android.databinding.DataBindingUtil
 import android.databinding.ViewDataBinding
-import android.os.Build
 import android.support.annotation.LayoutRes
 import android.support.design.widget.TextInputLayout
-import android.support.v4.content.ContextCompat
-import android.support.v7.widget.CardView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.View.GONE

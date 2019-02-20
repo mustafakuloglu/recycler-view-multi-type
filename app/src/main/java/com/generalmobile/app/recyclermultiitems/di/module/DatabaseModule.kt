@@ -1,8 +1,8 @@
-package com.generalmobile.app.recyclermultiitems.di.module
+package com.kuloglu.app.recyclermultiitems.di.module
 
 import android.arch.persistence.room.Room
 import android.content.Context
-import com.generalmobile.app.recyclermultiitems.db.AppDatabase
+import com.kuloglu.app.recyclermultiitems.db.AppDatabase
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton

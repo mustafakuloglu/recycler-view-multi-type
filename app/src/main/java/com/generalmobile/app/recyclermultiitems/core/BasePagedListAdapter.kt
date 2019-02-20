@@ -1,4 +1,4 @@
-package com.generalmobile.app.recyclermultiitems.core
+package com.kuloglu.app.recyclermultiitems.core
 
 import android.arch.paging.PagedList
 import android.arch.paging.PagedListAdapter
@@ -6,7 +6,7 @@ import android.databinding.ViewDataBinding
 import android.support.v7.util.DiffUtil
 import android.support.v7.widget.RecyclerView
 import android.view.ViewGroup
-import com.generalmobile.app.recyclermultiitems.R
+import com.kuloglu.app.recyclermultiitems.R
 
 abstract class BasePagedListAdapter(diffCallback: DiffUtil.ItemCallback<BaseEntity> = BaseDiffCallback()) : PagedListAdapter<BaseEntity, RecyclerView.ViewHolder>(diffCallback) {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder = getViewHolder(parent, viewType)

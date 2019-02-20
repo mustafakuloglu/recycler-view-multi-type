@@ -1,10 +1,10 @@
-package com.generalmobile.app.recyclermultiitems.core
+package com.kuloglu.app.recyclermultiitems.core
 
 import android.databinding.ViewDataBinding
 import android.support.v7.recyclerview.extensions.ListAdapter
 import android.support.v7.util.DiffUtil
 import android.view.ViewGroup
-import com.generalmobile.app.recyclermultiitems.R
+import com.kuloglu.app.recyclermultiitems.R
 
 abstract class BaseAdapter<T>(callback: DiffUtil.ItemCallback<T>) : ListAdapter<T, BaseViewHolder<ViewDataBinding>>(callback) {
 

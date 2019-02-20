@@ -3,9 +3,7 @@ buildscript {
         maven { url 'https://maven.fabric.io/public' }
     }
 
-    dependencies {
-        classpath 'io.fabric.tools:gradle:1.25.2'
-    }
+
 }
 
 apply plugin: 'com.android.application'
@@ -15,18 +13,14 @@ apply plugin: 'kotlin-kapt'
 def STRING = 'String'
 def BUILD_TIME = 'BUILD_TIME'
 
-apply plugin: 'io.fabric'
 
-repositories {
-    maven { url 'https://maven.fabric.io/public' }
-}
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion "27.0.3"
 
     defaultConfig {
-        applicationId "com.generalmobile.app.recyclermultiitems"
+        applicationId "com.kuloglu.app.recyclermultiitems"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -36,9 +30,10 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled true
-            zipAlignEnabled true
-            shrinkResources true
+            ext.enableCrashlytics = false
+            minifyEnabled false
+            zipAlignEnabled false
+            shrinkResources false
             debuggable false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }

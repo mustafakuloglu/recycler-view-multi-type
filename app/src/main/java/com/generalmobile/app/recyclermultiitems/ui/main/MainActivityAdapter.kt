@@ -1,4 +1,4 @@
-package com.generalmobile.app.recyclermultiitems.ui.main
+package com.kuloglu.app.recyclermultiitems.ui.main
 
 import android.databinding.DataBindingUtil
 import android.databinding.ViewDataBinding
@@ -7,14 +7,14 @@ import android.support.v7.util.DiffUtil
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.generalmobile.app.recyclermultiitems.App
-import com.generalmobile.app.recyclermultiitems.R
-import com.generalmobile.app.recyclermultiitems.core.Type
-import com.generalmobile.app.recyclermultiitems.databinding.ItemHeaderBinding
-import com.generalmobile.app.recyclermultiitems.databinding.ItemImageBinding
-import com.generalmobile.app.recyclermultiitems.db.entities.BaseRecyclerEntity
-import com.generalmobile.app.recyclermultiitems.db.entities.Header
-import com.generalmobile.app.recyclermultiitems.db.entities.Image
+import com.kuloglu.app.recyclermultiitems.App
+import com.kuloglu.app.recyclermultiitems.R
+import com.kuloglu.app.recyclermultiitems.core.Type
+import com.kuloglu.app.recyclermultiitems.databinding.ItemHeaderBinding
+import com.kuloglu.app.recyclermultiitems.databinding.ItemImageBinding
+import com.kuloglu.app.recyclermultiitems.db.entities.BaseRecyclerEntity
+import com.kuloglu.app.recyclermultiitems.db.entities.Header
+import com.kuloglu.app.recyclermultiitems.db.entities.Image
 
 class MainActivityAdapter : ListAdapter<BaseRecyclerEntity, RecyclerView.ViewHolder>(object : DiffUtil.ItemCallback<BaseRecyclerEntity>() {
     override fun areItemsTheSame(oldItem: BaseRecyclerEntity, newItem: BaseRecyclerEntity): Boolean {

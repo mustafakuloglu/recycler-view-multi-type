@@ -4,7 +4,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.generalmobile.app.recyclermultiitems.ui.main.MainActivityImageViewModel"/>
+            type="com.kuloglu.app.recyclermultiitems.ui.main.MainActivityImageViewModel" />
     </data>
     <RelativeLayout
         android:orientation="vertical" android:layout_width="match_parent"

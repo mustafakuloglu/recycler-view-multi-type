@@ -1,10 +1,10 @@
-package com.generalmobile.app.recyclermultiitems.core
+package com.kuloglu.app.recyclermultiitems.core
 
 import android.databinding.BindingAdapter
 import android.support.v7.widget.RecyclerView
 import android.widget.ImageView
-import com.generalmobile.app.recyclermultiitems.db.entities.BaseRecyclerEntity
-import com.generalmobile.app.recyclermultiitems.ui.main.MainActivityAdapter
+import com.kuloglu.app.recyclermultiitems.db.entities.BaseRecyclerEntity
+import com.kuloglu.app.recyclermultiitems.ui.main.MainActivityAdapter
 import com.squareup.picasso.Picasso
 
 object BindingAdapter {

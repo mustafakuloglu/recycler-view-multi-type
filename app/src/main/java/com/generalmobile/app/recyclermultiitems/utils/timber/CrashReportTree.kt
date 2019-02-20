@@ -1,4 +1,4 @@
-package com.generalmobile.app.recyclermultiitems.utils.timber
+package com.kuloglu.app.recyclermultiitems.utils.timber
 
 import android.util.Log
 import com.crashlytics.android.Crashlytics

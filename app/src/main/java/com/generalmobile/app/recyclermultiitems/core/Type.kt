@@ -1,4 +1,4 @@
-package com.generalmobile.app.recyclermultiitems.core
+package com.kuloglu.app.recyclermultiitems.core
 
 object Type {
     const val HEADER = 0

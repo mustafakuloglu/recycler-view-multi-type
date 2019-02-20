@@ -1,9 +1,9 @@
-package com.generalmobile.app.recyclermultiitems.di.module
+package com.kuloglu.app.recyclermultiitems.di.module
 
 import android.content.Context
 import android.content.SharedPreferences
 import android.preference.PreferenceManager
-import com.generalmobile.app.recyclermultiitems.App
+import com.kuloglu.app.recyclermultiitems.App
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
